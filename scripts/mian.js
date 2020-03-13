@@ -5,7 +5,8 @@ function Change () {
     var index = ChangeInput.value;
     var link1 = 'https://source.unsplash.com/100x100';
     var link2 = 'https://source.unsplash.com/320x320';
-    rotationImage.setAttribute('src', 'link' + index);
+    changeImage.setAttribute('src', link + index);
+    console.log("vegeta")
     
 }
 Change();
